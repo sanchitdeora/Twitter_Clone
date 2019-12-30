@@ -1,0 +1,110 @@
+<style>
+header{
+background-color: white;
+color: black;
+}
+body{
+background-color: white;
+font-family: "Calibri"
+}
+
+li{
+cursor: pointer;
+}
+
+label{
+cursor: pointer;
+}
+label:hover{
+background-color: dodgerblue;
+color: white;
+}
+
+
+div{
+list-style: none;
+background-color: white;
+border: 3px solid black;
+padding:5px;
+/*width: 22%;*/
+height: 200px;
+/*position: relative;*/
+/*float:left;*/
+overflow: scroll;
+font-size: 16px;
+/*overflow-x:hidden;*/
+}
+
+table, tr{
+background-color: white;
+width: 150%;
+margin-left: -200px;
+}
+
+td{
+padding: 10px;
+}
+
+#left1{
+margin: 0% 0% 0% 0%;
+}
+
+#left2{
+margin: 3% 0% 0% 0%;
+}
+
+#mid1{
+height: 430px;
+margin: 0% 0% 0% 3%;
+}
+
+#mid2{
+margin: 3% 0% 0% 3%;
+}
+
+#right1{
+margin: 0% 0% 0% 3%;
+}
+
+#right2{
+margin: 3% 0% 0% 3%;
+}
+
+</style>
+<head>
+<h4 align="center" id="status">Simulating Twitter Engine.....</h4>
+</head>
+<body>
+<table>
+  <tr>
+    <td colspan = 2>
+    <label>Users</label>
+    <div id="left1"></div>
+    </td>
+    <td rowspan = 2>
+    <label>Live Tweets</label>
+    <div id="mid1"></div>
+    </td>
+    <td>
+    <label>Trending</label>
+    <div id="right1"></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <label>User Mentions</label>
+    <div id="left2"></div>
+    </td>
+    <td>
+    <label>User Retweets</label>
+    <div id="mid2"></div>
+    </td>
+    <td>
+    <label>Trending Tweets</label>
+    <div id="right2"></div>
+    </td>
+  </tr>
+
+</table>
+</body>
+<br>

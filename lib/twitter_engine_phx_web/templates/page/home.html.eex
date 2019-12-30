@@ -1,0 +1,128 @@
+<style>
+.pageheading{
+float: left;
+font-family: Arial;
+font-weight: 700;
+margin-left: 11%;
+}
+
+div{
+/*padding: 18px;*/
+margin: 10px;
+border-radius: 35px;
+border-width: 2px;
+}
+
+.posttweet{
+border: 5px solid deepskyblue;
+width: 80%;
+height: 125px;
+margin-left: 10%;
+margin-top: 50px;
+}
+
+.feed{
+padding: 18px;
+float: left;
+width: 45%;
+background-color: deepskyblue;
+}
+
+.subscribers{
+padding: 18px;
+float: right;
+width: 45%;
+background-color: deepskyblue;
+}
+
+input{
+width: 93%;
+border: none;
+font-weight: bold;
+opacity: 0.4;
+padding: 18px;
+margin: 15px;
+}
+
+nav{
+border: none;
+border-radius: 0px;
+}
+
+.navigation{
+width: 100%;
+height: 76px;
+background-color: deepskyblue;
+border-radius: 0px;
+}
+
+button{
+border: 3px;
+padding: 10px;
+width: 12%;
+background-color: deepskyblue;
+cursor: pointer;
+color: white;
+font-weight: 700;
+float: left;
+}
+
+button:hover{
+opacity: 0.5;
+}
+
+.tweet{
+border: 3px;
+border-radius: 35px;
+padding: 10px;
+width: 12%;
+background-color: deepskyblue;
+cursor: pointer;
+color: white;
+font-weight: 700;
+margin: 0% 0% 1% 87%;
+
+}
+
+/*.logout{*/
+/*font-family: Arial;*/
+/*font-weight: 700;*/
+/*font-size: 15px;*/
+/*border: none;*/
+/*background-color: white;*/
+/*color: deepskyblue;*/
+/*padding: 0px;*/
+/*margin: 0% 11% 0% 80%;*/
+/*}*/
+
+</style>
+
+<body>
+    <div class="navigation">
+            <form action="/home" method="get">
+                <button class="home"><h2>Home</h2></button>
+            </form>
+            <form action="/allusers" method="get">
+                <button class="allusers"><h2>All Users</h2></button>
+             </form>
+
+            <form action="/logout" method="get">
+                <button class="logout"><h2>Log out</h2></button>
+            </form>
+    </div>
+
+    <div class = "posttweet">
+        <form action="/posttweet" method="get">
+            <input type="textarea" placeholder="How you doing today?" name="tweet">
+            <br>
+            <button type="submit" class="tweet">Tweet</button>
+        </form>
+    </div>
+
+    <div class = "feed">
+    </div>
+
+    <div class = "subscribers">
+    </div>
+</body>
+<br>

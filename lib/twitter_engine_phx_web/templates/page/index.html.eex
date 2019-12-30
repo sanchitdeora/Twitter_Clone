@@ -1,0 +1,73 @@
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+}
+
+form {
+background-color: white;
+margin-left: 25%;
+margin-right: 25%;
+width: 50%;
+}
+button {
+  border: 1px solid;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: lightskyblue;
+  border: 0px solid lightskyblue;
+
+}
+.signupbtn{
+background-color: deepskyblue;
+color: white;
+/*border: none;*/
+}
+
+.loginbtn {
+  /*border-width: 1px;*/
+  /*border-color: deepskyblue;*/
+  background-color: white;
+  color: deepskyblue;
+}
+
+.container {
+  padding: 16px;
+}
+
+
+</style>
+<body>
+
+
+<form action="/signup" method="get">
+
+<div>
+    <button type="Signup" class="signupbtn">Sign up</button>
+  </div>
+</form>
+
+<form action="/login" method="get">
+  <div>
+    <button type="Login" class="loginbtn">Log in</button>
+  </div>
+</form>
+
+<form action="/simulator" method="get">
+  <div>
+    <button type="Signup" class="signupbtn">Simulator</button>
+  </div>
+</form>
+
+
+</body>

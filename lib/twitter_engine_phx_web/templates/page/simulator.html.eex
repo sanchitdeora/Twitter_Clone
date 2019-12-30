@@ -1,0 +1,15 @@
+<body>
+    <div class="start">
+        <h2 align="center">Simulator</h2>
+    </div>
+        <form action="/start" method="get">
+            <label for="numUsers">Number of Users</label>
+            <input type="text" id="numUsers" value="100" name="numUsers">
+
+            <label for="numTweets">Number of Tweets</label>
+            <input type="text" id="numTweets" value="500" name="numTweets">
+
+            <button type="submit">Start Simulation!</button>
+        </form>
+</body>
+<br>
