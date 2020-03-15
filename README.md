@@ -1,4 +1,4 @@
-# TwitterEnginePhx
+# TwitterClone
 
 To start your Phoenix server:
 
